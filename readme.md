@@ -17,7 +17,7 @@ Left Mouse Clicks on the buttons
 
 ----
 ## proof of concept
-![this should be an example pic](https://github.com/smaradey/UnrealStructReplication/example.PNG "Its working:")
+![this should be an example pic](https://github.com/smaradey/UnrealStructReplication/blob/master/example.PNG "Its working:")
 
 
 
