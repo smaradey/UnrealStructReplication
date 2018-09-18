@@ -9,6 +9,7 @@ Left Mouse Clicks on the buttons
 ----
 ## notes
 
+* ** Open TestLevel!**
 * Each player can only change its own values.
 * There is a replication log, showing the history
 * To the left of the replication log, the current values are shown. Some are updated via the OnRep function, some via the Bindings.
