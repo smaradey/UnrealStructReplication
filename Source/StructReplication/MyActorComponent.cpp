@@ -52,8 +52,6 @@ void UMyActorComponent::ServerOverrideStruct_Implementation(FSomeStruct NewStruc
 	FSomeStruct OldStruct = SomeStruct;
 	SomeStruct = NewStruct;
 
-	//SomeStructReplicated.Broadcast(SomeStruct, OldStruct);
-
 	if (GetNetMode() < ENetMode::NM_Client) // should only execute on listen servers, not so sure about this one though anymore ...
 	{
 		OnRep_SomeStruct(OldStruct);
